@@ -8,7 +8,7 @@
   <title>Elmarzougui Abdelghafour PHP - Laravel developper</title>
   <meta name="description" content="Elmarzougui Abdelghafour PHP - Laravel developper">
   <meta name="keywords" content="php, laravel, symfony, vuejs, angular">
-  <meta name="author" content="">
+  <meta name="author" content="Elmarzougui">
 
   <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
@@ -65,7 +65,7 @@
 	  </div>--}}
 
 </div>
-    <script src="{{mix('js/app.js')}}"></script>
+    {{--<script src="{{mix('js/app.js')}}"></script>--}}
 </body>
 
 </html>
