@@ -5,8 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Elmarzougui Abdelghafour PHP - Laravel developper</title>
-  <meta name="description" content="Elmarzougui Abdelghafour PHP - Laravel developper">
+  <title>Elmarzougui Abdelghafour PHP - Laravel developer</title>
+  <meta name="description" content="Elmarzougui Abdelghafour PHP - Laravel developer">
   <meta name="keywords" content="php, laravel, symfony, vuejs, angular">
   <meta name="author" content="Elmarzougui">
 
