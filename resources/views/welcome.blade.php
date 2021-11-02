@@ -56,7 +56,11 @@
 	<!--Img Col-->
 	<div class="w-full lg:w-2/5">
 		<!-- Big profile image for side bar (desktop) -->
-		<img src="{{Voyager::image(setting('profile.picture'))}}" class="rounded-none lg:rounded-lg shadow-2xl hidden lg:block">
+		@php
+			
+			$image = base64_encode(file_get_contents(public_path('storage').'/'.setting('profile.picture')));
+		@endphp
+		<img src="data:image/jpg;base64,{{$image}}" class="rounded-none lg:rounded-lg shadow-2xl hidden lg:block" oncontextmenu="return false;">
 
 	</div>
 	
